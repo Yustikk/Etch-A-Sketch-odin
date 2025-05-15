@@ -12,3 +12,6 @@ selectquery wont let me modify the .style!!!!
 
 
 container.style.height=getComputedStyle(container).width;
+
+no drag
+body.addEventListener("selectstart", function(e) {e.preventDefault()})
