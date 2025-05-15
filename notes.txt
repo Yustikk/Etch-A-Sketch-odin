@@ -1,0 +1,8 @@
+<script src="pth" defer>
+defer-to reload java after all the page elements are added!!!!
+
+background-attachment: fixed 
+=> the gradient doesnt repeat anymore! 
+background-image: linear-gradient(rgb(255, 224, 230),rgb(155, 198, 209));
+
+box-sizing: border box=> to include border
