@@ -12,40 +12,28 @@ body{
 div{
     padding: 0px;
     margin: 0px;
+    border-width: 0px;
     background-color: antiquewhite;
 }
 
 #container{
+    flex:auto;
     display: flex;
     flex-direction: column;
-    width: 80%;
-    height: 70vh;
+    width: 40%;
+    
     max-width: 80%;
-
-    border-color: rgba(210, 73, 223, 0.822);
-    border-style: solid;
-    border-width: 1px;
 }
 
 .row{
     flex:auto;
     display: flex;
     height:100%;
-    
-    border-color: black;
-    border-style: solid;
-    border-width: 1px;
 }
 
 .column
 {
-    display: flex;
     flex:1;
-
-
-    border-color: rgb(153, 74, 74);
-    border-style: solid;
-    border-width: 1px;
 
     
     

@@ -6,3 +6,9 @@ background-attachment: fixed
 background-image: linear-gradient(rgb(255, 224, 230),rgb(155, 198, 209));
 
 box-sizing: border box=> to include border
+
+!!!!
+selectquery wont let me modify the .style!!!!
+
+
+container.style.height=getComputedStyle(container).width;
